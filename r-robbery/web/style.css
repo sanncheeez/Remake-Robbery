@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+#notification {
+    position: absolute;
+    top: 2%;
+    left:50%;
+    transform: translateX(-50%);
+    background: rgba(16, 16, 19, 1);
+    color: #fff;
+    width: max-content;
+    padding: 0.5vw;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.notification-box {
+    text-align: center;
+}
+
+.notification-box i {
+    background-color: rgb(255,255,255,0.100);
+    padding: 0.6vw;
+    border-radius: 5px;
+    font-size: 1.5vh; /* Tamaño del icono */
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+    vertical-align: middle;
+}
+
+#notification-text {
+    position: relative;
+    top: 0.1vw;
+    font-size: 18px;
+    margin: 0;
+    display: inline; /* Mantener el texto y el icono en una línea */
+}
+
+.key {
+    background-color: #ffffff; /* Fondo blanco para la tecla */
+    color: #000000; /* Color del texto de la tecla */
+    padding: 5px 10px; /* Espaciado alrededor de la tecla */
+    border-radius: 3px; /* Esquinas redondeadas */
+    font-weight: bold; /* Texto en negrita */
+    font-family: 'Courier New', Courier, monospace; /* Fuente monoespaciada */
+}
